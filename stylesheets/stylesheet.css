@@ -100,7 +100,9 @@ header h2 {
 }
 
 #downloads {
-  margin-bottom: 40px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 a.button {
@@ -424,6 +426,5 @@ footer a:hover {
 .target-1 .panel-2 .caption,
 .target-2 .panel-2 .caption {
   display: inline-block;
-  vertical-align: middle;
   line-height: normal;
 }
