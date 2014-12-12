@@ -86,13 +86,14 @@ HTML5 Data Attribute		| Type		| Default	| Description
 
 ## Feature Backlog
 
-* Support for responsive layouts.
-* Render canvas output off-screen and cache it to data URIs for faster rendering.
-* Setting to opt-in to caching for memory reduction.
-* Support for more of the built-in filters provided by CamanJS.
-* Data attribute to watch resizing on specific panels and re-render.
-* Support for passing an `<img>` jQuery object or DOM element as the value of `backgroundSrc`.
-
+* Support for more of the built-in filters provided by CamanJS
+* Setting to opt-in to the fading in of the `<canvas>` element
+* Setting to opt-in to caching for memory reduction
+* Data attribute to watch resizing on specific panels and re-render
+* Render canvas output off-screen and cache it to data URIs for faster rendering
+* Support for passing an `<img>` jQuery object or DOM element as the value of `backgroundSrc`
+* Support for responsive layouts
+ 
 ## History
 
 Check [Releases](https://github.com/dietrich-stein/vibrancy.js/releases) for a detailed changelog.
