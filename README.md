@@ -62,7 +62,7 @@ Add CSS to control the dimensions and positioning of your target and child eleme
 }
 ```
 
-Call the plugin with the class shared by your child elements and the URI to your background image:
+Call the plugin with the `panelClass` set to a CSS class shared by your child elements and the `backgroundSrc` set to URI reference of your desired background image:
 
 ```javascript
 $('.target').vibrancy({
