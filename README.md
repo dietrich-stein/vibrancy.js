@@ -73,10 +73,34 @@ $('.target').vibrancy({
 
 ## Settings
 
-## Releases
+Plugin Attribute	| Type		| Default	| Description
+---			| ---		| ---		| ---
+`panelClass`		| *String*	| `'panel'`	| Determines the CSS class for selecting child elements.
+`backgroundSrc`		| *String*	| `''`		| URI reference to the image file to cache and display.
 
-## Roadmap
+HTML5 Data Attribute		| Type		| Default	| Description
+---				| ---		| ---		| ---
+`data-vibrancy-vibrance`	| *Integer*	| 0		| Determines the degree to which desaturated colors are made saturated.
+`data-vibrancy-brightness`	| *Integer*	| 0		| Determines the degree to which the brightness is increased.
+`data-vibrancy-blur`		| *Integer*	| 0		| Determines the intensity of the blur effect; 
 
-## Acknowledgements
+## Feature Backlog
+
+* Support for responsive layouts.
+* Render canvas output off-screen and cache it to data URIs for faster rendering.
+* Setting to opt-in to caching for memory reduction.
+* Support for more of the built-in filters provided by CamanJS.
+* Data attribute to watch resizing on specific panels and re-render.
+* Support for passing an `<img>` jQuery object or DOM element as the value of `backgroundSrc`.
+
+## History
+
+Check [Releases](https://github.com/dietrich-stein/vibrancy.js/releases) for a detailed changelog.
+
+## Credits
+
+Built on top of [jQuery Boilerplate](http://jqueryboilerplate.com).
 
 ## License
+
+[MIT License](https://raw.githubusercontent.com/dietrich-stein/vibrancy.js/master/LICENSE) © Dietrich Stein
