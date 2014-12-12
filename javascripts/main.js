@@ -6,7 +6,7 @@ $(function() {
     }).data('vibrancy');
 
     // Thumbnails
-    $('.thumbs-1 img').on('mousedown', function(e) {
+    $('.thumbs-1 img').on('mousedown touchstart', function(e) {
 
         var $img = $(this);
         if ($img.hasClass('active')) {

@@ -65,7 +65,6 @@ a:hover {
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
 }
 
 header h1 {
@@ -100,9 +99,14 @@ header h2 {
 }
 
 #downloads {
-  margin-top: 20px;
+  margin-top: 38px;
   width: 100%;
   text-align: center;
+}
+
+#downloads div {
+	width: 620px;
+	margin: 0 auto;
 }
 
 a.button {
