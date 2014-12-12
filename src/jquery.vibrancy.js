@@ -1,12 +1,3 @@
-/*!
- * vibrancy.js v0.1
- * http://dietrich-stein.github.io/vibrancy.js
- *
- * Copyright (c) 2014 Dietrich Stein
- * This content is released under the MIT license.
- * https://raw.githubusercontent.com/dietrich-stein/vibrancy.js/master/LICENSE
-  */
-
 ;(function ($, window, document, undefined) {
 
     var pluginName = 'vibrancy',
@@ -29,7 +20,7 @@
 
     $.extend(Vibrancy.prototype, {
 
-        init: function () {
+        init: function() {
 
             var t = this;
 

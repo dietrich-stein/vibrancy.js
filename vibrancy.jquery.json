@@ -1,0 +1,40 @@
+{
+	"name": "vibrancy",
+	"title": "vibrancy.js",
+	"description": "A jQuery plugin for adding stylish frosted glass effects over images.",
+	"keywords": [
+		"jquery",
+		"CamanJS",
+		"vibrancy",
+        "frosted",
+        "glass",
+        "blur",
+        "effect"
+	],
+	"version": "0.1",
+	"author": {
+		"name": "Dietrich Stein",
+		"email": "dietrich.stein@gmail.com",
+		"url": "https://github.com/dietrich-stein"
+	},
+	"maintainers": [
+		{
+		    "name": "Dietrich Stein",
+		    "email": "dietrich.stein@gmail.com",
+		    "url": "https://github.com/dietrich-stein"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.githubusercontent.com/dietrich-stein/vibrancy.js/master/LICENSE"
+		}
+	],
+	"bugs": "https://github.com/dietrich-stein/vibrancy.js/issues",
+	"homepage": "http://dietrich-stein.github.io/vibrancy.js",
+	"docs": "https://github.com/dietrich-stein/vibrancy.js#readme",
+	"download": "https://github.com/dietrich-stein/vibrancy.js/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
