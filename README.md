@@ -67,7 +67,7 @@ Call the plugin with the `panelClass` set to a CSS class shared by your child el
 ```javascript
 $('.target').vibrancy({
 	panelClass: 'panel',
-	backgroundSrc: $('.thumbs-1 img:first-child').attr('src')
+	backgroundSrc: $('.hidden-preload img:first-child').attr('src')
 })
 ```
 
