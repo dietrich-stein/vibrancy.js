@@ -69,8 +69,9 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
-  letter-spacing: -1px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
   font-size: 48px;
   color: #303030;
   line-height: 1.2;
@@ -90,7 +91,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -337,35 +338,83 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
-/* #Media Queries
-================================================== */
-
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  #downloads {
-    margin-bottom: 25px;
-  }
-  #download-zip, #download-tar-gz {
-    display: none;
-  }
-  .inner {
-    width: 94%;
-    margin: 0 auto;
-  }
+/* DEMO */
+.hr {
+    font-weight: 400;
 }
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+.h1-main {
+	margin-bottom: 1.5em;
+}
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+.h1-main .cmd {
+	font-weight: 100;
+	color: #ccc;
+}
+
+.h3-thumbs {
+	color: #666;
+	margin: 2em 0 0.5em 0;
+}
+.thumbs-1, .thumbs-2 {
+	background-color: #fff;
+}
+.thumbs-1 img, .thumbs-2 img {
+	display: block;
+	float: left;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.thumbs-1 img:hover,
+.thumbs-2 img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.target-1, .target-2 {
+    width: 800px;
+    height: 533px;
+	margin: 0 auto;
+}
+
+.panel {
+	position: absolute;
+	z-index: 9000;
+	box-sizing: border-box;
+/*	display: none;*/
+}
+
+.target-1 .panel-1,
+.target-2 .panel-1 {
+	font-size: 2em;
+	color: #000;
+	top: 30px;
+	left: 30px;
+	width: 392px;
+	height: 108px;
+	padding: 0.5em;
+	text-align: left;
+	text-shadow: none;
+}
+
+.target-1 .panel-2,
+.target-2 .panel-2 {
+	font-size: 1.5em;
+	color: #fff;
+	top: 450px;
+	left: 0px;
+	width: 800px;
+	height: 83px;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	line-height: 83px;
+}
+
+.target-1 .panel-2 .caption,
+.target-2 .panel-2 .caption {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
