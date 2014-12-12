@@ -13,16 +13,11 @@ http://dietrich-stein.github.io/vibrancy.js
 
 ## Usage
 
-Add script tags to include the jQuery and CamanJS libraries:
+Add script tags to include the jQuery, CamanJS, and this library:
 
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/camanjs/4.0.0/caman.full.min.js"></script>
-```
-
-Also add the script tag for this library:
-
-```html
 <script src="jquery.vibrancy-0.1.min.js"></script>
 ```
 
