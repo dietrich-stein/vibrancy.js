@@ -71,8 +71,8 @@ header {
 header h1 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 300;
-  letter-spacing: 0.01em;
-  font-size: 48px;
+  letter-spacing: -0.04em;
+  font-size: 2em;
   color: #303030;
   line-height: 1.2;
 }
@@ -341,6 +341,15 @@ footer a:hover {
 /* DEMO */
 .hr {
     font-weight: 400;
+}
+
+.hl {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  font-size: 2em;
+  color: #303030;
+  line-height: 1.2;
 }
 
 .h1-main {
