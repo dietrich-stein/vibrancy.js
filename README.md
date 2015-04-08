@@ -21,12 +21,6 @@ Add script tags to include the jQuery, CamanJS, and this library:
 <script src="jquery.vibrancy-0.1.min.js"></script>
 ```
 
-Create an attribute called `data-repo`:
-
-```html
-<div data-repo="jquery-boilerplate/jquery-boilerplate"></div>
-```
-
 Add HTML with any supported `data-` attributes on the child elements:
 
 ```html
